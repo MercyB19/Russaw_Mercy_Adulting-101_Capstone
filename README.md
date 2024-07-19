@@ -1,4 +1,4 @@
-# Yay Adulting
+# YAY-Adulting
 
 # Personal Organizer
 
