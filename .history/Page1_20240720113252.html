@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YAY Adulting</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .header-background {
+            background: linear-gradient(180deg, #F3F4F6 0%, #E5E7EB 100%);
+        }
+    </style>
+</head>
+<body class="bg-gray-100 flex flex-col items-center justify-center min-h-screen">
+
+    <!-- Main Container -->
+    <div class="w-full max-w-5xl bg-white border-2 border-black p-8 space-y-8">
+
+        <!-- Header Section -->
+        <header class="header-background rounded-lg shadow p-6 space-y-2 text-center">
+            <h1 class="text-sky-500 text-6xl font-bold tracking-widest">Adulting 101</h1>
+            <p class="text-cyan-900 text-3xl font-bold tracking-widest">Digital Organizer</p>
+            <nav class="flex justify-center space-x-6 mt-4">
+                <a href="#" class="text-cyan-600 text-base font-medium hover:underline">About Us</a>
+                <a href="#" class="text-cyan-600 text-base font-medium hover:underline">Our Services</a>
+            </nav>
+        </header>
+
+        <!-- Form Section -->
+        <section class="space-y-6">
+            <!-- Email Input -->
+            <div class="bg-gray-200 rounded-lg p-4 flex items-center">
+                <input type="email" placeholder="Your email" class="bg-transparent flex-grow text-gray-800 text-base font-medium font-['Poppins'] focus:outline-none"/>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+            </div>
+
+            <!-- Password Input -->
+            <div class="bg-gray-200 rounded-lg p-4 flex items-center">
+                <input type="password" placeholder="Password" class="bg-transparent flex-grow text-gray-800 text-base font-medium font-['Poppins'] focus:outline-none"/>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12H9m4-4H9m0 8h4" />
+                </svg>
+            </div>
+
+            <!-- Create Account Button -->
+            <button class="bg-blue-500 text-white text-base font-bold py-3 px-6 rounded-lg hover:bg-blue-700">
+                Create Account
+            </button>
+
+            <!-- Or Sign In With Another Account -->
+            <p class="text-center text-gray-600">Or Sign in with Another Account</p>
+
+            <!-- Google Sign In -->
+            <button class="bg-white border border-gray-300 text-gray-800 rounded-lg py-3 px-6 flex items-center space-x-4 hover:bg-gray-100 w-full">
+                <img src="https://via.placeholder.com/33x21" alt="Google" class="w-6 h-6"/>
+                <span class="flex-grow text-center">Google</span>
+            </button>
+
+            <!-- Apple ID Sign In -->
+            <button class="bg-white border border-gray-300 text-gray-800 rounded-lg py-3 px-6 flex items-center space-x-4 hover:bg-gray-100 w-full">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12H9m4-4H9m0 8h4" />
+                </svg>
+                <span class="flex-grow text-center">Sign in with Apple ID</span>
+            </button>
+        </section>
+    </div>
+
+</body>
+</html>
