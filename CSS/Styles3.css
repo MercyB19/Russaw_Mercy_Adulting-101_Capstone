@@ -84,7 +84,22 @@
   
   .page .text {
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 1;
+.page .text {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+.page .text {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  max-height: 20px;
+}
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    max-height: 20px;
+}
     color: #00000080;
     display: -webkit-box;
     flex: 1;

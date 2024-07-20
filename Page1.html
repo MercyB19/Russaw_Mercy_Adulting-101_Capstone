@@ -1,4 +1,21 @@
-<!DOCTYPE html>
+<div class="page">
+  <!-- ... -->
+  <div class="text" id="yourTextElementId">
+    Your long text here
+  </div>
+  <!-- ... -->
+</div>
+
+<script>
+  // Get the text element
+  const textElement = document.getElementById('yourTextElementId');
+
+  // Truncate the text and add an ellipsis
+  const maxLength = 100; // Set the maximum length of the text
+  if (textElement.textContent.length > maxLength) {
+    textElement.textContent = textElement.textContent.slice(0, maxLength) + '...';
+  }
+</script><!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8" />
