@@ -1,0 +1,82 @@
+div {
+  width: 1440px;
+  height: 1024px;
+  background-color: white;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 92px;
+  display: inline-flex;
+}
+<div class="h-261.77px border border-black flex-col justify-start items-start gap-2.5 flex">
+    <div class="self-stretch grow shrink basis-0 pl-13 pr-85.44px pt-9 pb-36.52px bg-slate-200/opacity-30 shadow border-4 border-neutral-400 justify-start items-center inline-flex">
+        <!-- ... -->
+    </div>
+    <!-- ... -->
+</div>
+    <div class="self-stretch grow shrink basis-0 pl-[13px] pr-[85.44px] pt-9 pb-[36.52px] bg-slate-200/opacity-30 shadow border-4 border-neutral-400 justify-start items-center inline-flex">
+      <div class="w-[1427.97px] h-[189.26px] relative flex-col justify-start items-start flex">
+        <div class="w-[1458.57px] text-center text-sky-500 text-[88.45px] font-normal font-['Balsamiq Sans'] leading-[119.53px] tracking-[8.85px]">Adulting 101</div>
+        <div class="text-center text-cyan-900 text-[38.25px] font-bold font-['Balsamiq Sans'] tracking-widest">Digital Organizer</div>
+        <div class="w-[388px] h-[29px] px-[120px] bg-zinc-300 rounded-[10px] justify-between items-center inline-flex">
+          <div class="justify-start items-center gap-12 flex">
+            <div class="justify-start items-start flex">
+              <div class="flex-col justify-start items-start inline-flex">
+                <div class="px-4 py-[26px] justify-start items-start gap-3 inline-flex">
+                  <div class="text-cyan-600 text-base font-medium font-['Inter'] leading-tight">About Us</div>
+                </div>
+              </div>
+              <div class="flex-col justify-start items-start inline-flex">
+                <div class="px-4 py-[26px] justify-start items-start gap-3 inline-flex">
+                  <div class="text-cyan-600 text-base font-medium font-['Inter'] leading-tight">Our Services</div>
+                  <div class="w-5 h-5 relative"></div>
+                </div>
+              </div>
+              <div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="w-[546px] h-[531px] relative">
+    <div class="w-[545px] h-[51px] pr-[0.85px] pb-[0.35px] left-[1px] top-[480px] absolute justify-center items-center inline-flex">
+      <div class="w-[544.15px] h-[50.65px] relative">
+        <div class="w-[544.15px] h-[50.65px] left-0 top-0 absolute bg-white rounded-[14.22px] border border-black"></div>
+        <div class="w-[190px] h-[25.62px] left-[248px] top-[12px] absolute text-gray-800 text-base font-medium font-['Poppins']">Sign in with Apple ID</div>
+        <div class="w-[23.51px] h-[24.58px] left-[197px] top-[12px] absolute bg-black rounded-[376.14px]"></div>
+      </div>
+    </div>
+    <div class="px-[196px] py-[13px] left-0 top-[392px] absolute rounded-[14.22px] border border-indigo-950 flex-col justify-start items-start gap-2.5 inline-flex">
+      <div class="w-[149.77px] h-[25.33px] justify-center items-center inline-flex">
+        <div class="grow shrink basis-0 self-stretch relative">
+          <div class="w-[96.52px] h-[25.33px] left-[53.25px] top-0 absolute text-gray-800 text-base font-medium font-['Poppins']">Google</div>
+          <img class="w-[33.28px] h-[21.10px] left-0 top-[2.11px] absolute rounded-3xl" src="https://via.placeholder.com/33x21" />
+        </div>
+      </div>
+    </div>
+    <div class="w-[329px] h-[25px] left-[120px] top-[335px] absolute justify-center items-center inline-flex">
+      <div class="w-[329px] h-[25px] text-center text-zinc-800 text-base font-medium font-['Poppins']">Or Sign in with Another Account</div>
+    </div>
+    <div class="w-[545px] h-[52px] left-0 top-[262px] absolute">
+      <div class="w-[544.15px] h-[50.65px] left-0 top-[0.82px] absolute bg-cyan-900 rounded-[14.22px]"></div>
+      <div class="w-[173.40px] left-[186.08px] top-[16.06px] absolute text-center text-white text-xs font-bold font-['Poppins'] uppercase tracking-wide">create account</div>
+    </div>
+    <div class="w-[544.15px] h-[55.36px] left-0 top-[168.19px] absolute">
+      <div class="w-[544.15px] h-[55.36px] left-0 top-0 absolute bg-neutral-400/opacity-20 rounded-[14.22px] shadow"></div>
+      <div class="w-[39.94px] h-[27.68px] left-[477.59px] top-[13.84px] absolute">
+        <div class="w-2.5 h-[6.92px] left-[14.98px] top-[10.38px] absolute rounded-full border border-black"></div>
+      </div>
+    </div>
+    <div class="w-[128.13px] h-[27.68px] left-0 top-[121px] absolute text-zinc-800 text-base font-medium font-['Poppins']">Password</div>
+    <div class="w-[545px] h-14 pr-[0.85px] pt-[0.24px] pb-[0.40px] left-0 top-[48px] absolute justify-center items-center inline-flex">
+      <div class="w-[544.15px] h-[55.36px] relative">
+        <div class="w-[544.15px] h-[55.36px] left-0 top-0 absolute bg-neutral-400/opacity-20 rounded-[14.22px] shadow"></div>
+        <div class="w-[39.94px] h-[27.68px] left-[477.59px] top-[13.84px] absolute"></div>
+      </div>
+    </div>
+    <div class="w-[143.11px] h-[27.68px] left-0 top-0 absolute text-zinc-800 text-base font-medium font-['Poppins']">Your email</div>
+  </div>
+</div>
