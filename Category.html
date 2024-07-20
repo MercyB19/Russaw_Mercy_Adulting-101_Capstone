@@ -1,0 +1,75 @@
+import React from "react";
+import { EmojioneMonotoneBustInSilhouette } from "./EmojioneMonotoneBustInSilhouette";
+import { TextContentHeading } from "./TextContentHeading";
+import { TwemojiAutomobile } from "./TwemojiAutomobile";
+import { TwemojiExploding } from "./TwemojiExploding";
+import { TwemojiLockedWith } from "./TwemojiLockedWith";
+import { TwemojiMoneyBag } from "./TwemojiMoneyBag";
+import { TwemojiPlus } from "./TwemojiPlus";
+import "./style.css";
+
+export const Desktop = () => {
+  return (
+    <div className="desktop">
+      <div className="div">
+        <div className="card-grid-image">
+          <TextContentHeading
+            align="start"
+            className="text-content-heading-instance"
+            divClassName="design-component-instance-node"
+            heading="Welcome!"
+            subheading=""
+          />
+        </div>
+        <div className="top-bar">
+          <p className="title"> Select a category below to begin setting up your organizer.</p>
+        </div>
+        <div className="frame">
+          <div className="overlap">
+            <div className="frame-2">
+              <div className="ellipse" />
+              <div className="text-wrapper">Personal</div>
+              <EmojioneMonotoneBustInSilhouette className="emojione-monotone" />
+            </div>
+            <div className="frame-3">
+              <div className="ellipse" />
+              <div className="text-wrapper-2">Secure</div>
+              <TwemojiLockedWith className="twemoji-locked-with-key" />
+            </div>
+            <div className="overlap-group">
+              <div className="frame-4">
+                <div className="ellipse" />
+                <div className="text-wrapper-3">My “V”</div>
+                <TwemojiAutomobile className="twemoji-automobile-instance" />
+              </div>
+              <div className="overlap-2">
+                <div className="frame-wrapper">
+                  <div className="overlap-group-wrapper">
+                    <div className="twemoji-exploding-wrapper">
+                      <TwemojiExploding className="twemoji-exploding-head" />
+                    </div>
+                  </div>
+                </div>
+                <div className="div-wrapper">
+                  <div className="frame-5">
+                    <div className="overlap-group-2">
+                      <div className="ellipse-2" />
+                      <TwemojiPlus className="twemoji-plus-instance" />
+                      <div className="text-wrapper-4">Add Category</div>
+                    </div>
+                  </div>
+                </div>
+                <div className="text-wrapper-5">Did you know...</div>
+              </div>
+              <div className="frame-6">
+                <div className="ellipse" />
+                <div className="text-wrapper-6">The Bag</div>
+                <TwemojiMoneyBag className="twemoji-money-bag-instance" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
