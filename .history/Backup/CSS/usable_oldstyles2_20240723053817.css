@@ -1,0 +1,280 @@
+.heading {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.07em;
+  line-height: 120%;
+  text-shadow: 3px 0 0 #000, 0 3px 0 #000, -3px 0 0 #000, 0 -3px 0 #000;
+}
+.subheading {
+  align-self: stretch;
+  position: relative;
+  font-size: 20px;
+  line-height: 120%;
+  font-family: Inter;
+  color: #757575;
+  text-align: left;
+}
+.text-content-heading {
+  background-color: rgba(255, 255, 255, 0.02);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.card-grid-image {
+  width: 1440px;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(231, 239, 244, 0.01) 39%, #8f8f8f);
+  border: 3px solid #979797;
+  box-sizing: border-box;
+  height: 181px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 64px;
+  text-align: center;
+  font-size: 64px;
+  color: rgba(34, 183, 231, 0.95);
+}
+.title {
+  width: 539px;
+  position: relative;
+  line-height: 35.45px;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.top-bar {
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 19.7px;
+  font-family: Roboto;
+}
+.frame-child {
+  width: 114px;
+  position: relative;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  height: 114px;
+  z-index: 0;
+}
+.personal {
+  width: 121px;
+  position: absolute;
+  margin: 0 !important;
+  top: 124px;
+  left: 21px;
+  font-weight: 500;
+  display: inline-block;
+  height: 32px;
+  z-index: 1;
+}
+.emojione-monotonebust-in-silh-icon {
+  width: 64px;
+  position: absolute;
+  margin: 0 !important;
+  top: 35px;
+  left: 35px;
+  height: 64px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.ellipse-parent {
+  position: absolute;
+  top: 0px;
+  left: 159px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px;
+  gap: 10px;
+}
+.secure {
+  width: 121px;
+  position: absolute;
+  margin: 0 !important;
+  top: 124px;
+  left: 28px;
+  font-weight: 500;
+  display: inline-block;
+  height: 32px;
+  z-index: 1;
+}
+.twemojilocked-with-key-icon {
+  width: 76px;
+  position: absolute;
+  margin: 0 !important;
+  top: 32px;
+  left: 33px;
+  height: 70px;
+  z-index: 2;
+}
+.ellipse-group {
+  position: absolute;
+  top: 114px;
+  left: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px;
+  gap: 10px;
+}
+.my-v {
+  width: 102px;
+  position: absolute;
+  margin: 0 !important;
+  top: 124px;
+  left: 37px;
+  display: inline-block;
+  height: 32px;
+  z-index: 1;
+}
+.twemojiautomobile-icon {
+  width: 87px;
+  position: absolute;
+  margin: 0 !important;
+  top: 24px;
+  left: 23px;
+  height: 68px;
+  z-index: 2;
+}
+.ellipse-container {
+  position: absolute;
+  top: 114px;
+  left: 336px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px;
+  gap: 10px;
+}
+.frame-icon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 140px;
+  flex-shrink: 0;
+}
+.frame-wrapper {
+  position: absolute;
+  top: 304px;
+  left: 293px;
+  width: 141px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.the-bag {
+  width: 121px;
+  position: absolute;
+  margin: 0 !important;
+  top: 114px;
+  left: 20px;
+  display: inline-block;
+  height: 32px;
+  z-index: 1;
+}
+.twemojimoney-bag-icon {
+  width: 85px;
+  position: absolute;
+  margin: 0 !important;
+  top: 16px;
+  left: 15px;
+  height: 82px;
+  z-index: 2;
+}
+.frame-div {
+  position: absolute;
+  top: 314px;
+  left: 57px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.frame-child1 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 114px;
+  height: 114px;
+}
+.twemojiplus-icon {
+  position: absolute;
+  top: 37px;
+  left: 34px;
+  width: 65px;
+  height: 60px;
+}
+.add-category {
+  position: absolute;
+  top: 124px;
+  left: calc(50% - 57px);
+  display: inline-block;
+  width: 141px;
+  height: 32px;
+}
+.ellipse-parent1 {
+  width: 134px;
+  position: relative;
+  height: 134px;
+}
+.frame-container {
+  position: absolute;
+  top: 171px;
+  left: 165px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.did-you-know {
+  position: absolute;
+  top: 428px;
+  left: 308px;
+  display: inline-block;
+  width: 162px;
+  height: 32px;
+}
+.frame-parent {
+  width: 470px;
+  position: relative;
+  height: 460px;
+  font-family: Inter;
+}
+.desktop-1 {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  height: 1024px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 49px;
+  text-align: left;
+  font-size: 20px;
+  color: #000;
+  font-family: 'Balsamiq Sans';
+}
