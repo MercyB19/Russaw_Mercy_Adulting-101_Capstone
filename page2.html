@@ -1,629 +1,165 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="initial-scale=1, width=device-width" />
+<html lang="en">
 
-    <link rel="stylesheet" href="./global.css" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Balsamiq Sans:wght@700&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
-    />
-  </head>
-  <body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+<body>
+  <div
+    style="width: 100%; height: 100%; background: white; border: 1px black solid; flex-direction: column; justify-content: flex-start; align-items: center; gap: 49px; display: inline-flex">
     <div
-      class="w-full relative bg-background-default-default box-border overflow-hidden flex flex-col items-start justify-start pt-0 px-0 pb-52 gap-[68.7px] leading-[normal] tracking-[normal] border-[1px] border-solid border-black mq450:gap-[17px] mq750:gap-[34px]"
-    >
-      <header
-        class="self-stretch [background:radial-gradient(50%_50%_at_50%_50%,_rgba(231,_239,_244,_0.01)_39%,_#8f8f8f)] box-border flex flex-row items-start justify-center py-8 px-5 gap-[48px] max-w-full text-left text-5xl text-text-default-default font-single-line-body-base border-[3px] border-solid border-darkgray mq450:gap-[24px]"
-      >
+      style="width: 1440px; height: 181px; padding: 64px; background: radial-gradient(100.00% 12.57% at NaN% 8.09%, rgba(231.14, 238.74, 244.16, 0.01) 39%, #8F8F8F 100%); border: 3px #979797 solid; flex-direction: column; justify-content: center; align-items: center; gap: 48px; display: flex">
+      <div
+        style="background: rgba(255, 255, 255, 0.02); flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: flex">
         <div
-          class="w-80 bg-gray flex flex-col items-start justify-start gap-[8px] text-center text-[64px] text-deepskyblue font-balsamiq-sans"
-        >
-          <h1
-            class="m-0 relative text-inherit tracking-[0.07em] leading-[77px] font-bold font-inherit [text-shadow:3px_0_0_#000,_0_3px_0_#000,_-3px_0_0_#000,_0_-3px_0_#000] mq450:text-[38px] mq450:leading-[46px] mq750:text-[51px] mq750:leading-[61px]"
-          >
-            Welcome!
-          </h1>
-          <div
-            class="self-stretch h-6 relative text-xl leading-[120%] font-single-line-body-base text-text-default-secondary text-left flex items-center mq450:text-base mq450:leading-[19px]"
-          ></div>
-        </div>
-        <div
-          class="w-[1072px] hidden flex-row flex-wrap items-center justify-start gap-[48px] max-w-full"
-        >
-          <div
-            class="h-[357px] flex-1 rounded-radius-200 bg-background-default-default box-border flex flex-row flex-wrap items-start justify-start p-6 gap-[24px] min-w-[240px] max-w-full border-[1px] border-solid border-border-default-default"
-          >
-            <img
-              class="h-40 w-40 overflow-hidden shrink-0 object-contain min-w-[160px]"
-              alt=""
-              src="/public/image@2x.png"
-            />
-
-            <div
-              class="h-[125px] flex-1 flex flex-col items-start justify-start gap-[16px] min-w-[160px]"
-            >
-              <div
-                class="self-stretch flex-1 flex flex-col items-start justify-start gap-[8px]"
-              >
-                <div
-                  class="self-stretch h-[29px] relative tracking-[-0.02em] leading-[120%] font-semibold inline-block mq450:text-lgi mq450:leading-[23px]"
-                >
-                  Title
-                </div>
-                <div
-                  class="self-stretch flex-1 relative text-base leading-[140%] text-text-default-secondary"
-                >
-                  Body text for whatever you’d like to say. Add main takeaway
-                  points, quotes, anecdotes, or even a very very short story.
-                </div>
-              </div>
-              <div
-                class="w-52 hidden flex-row items-center justify-start gap-[16px] text-base text-text-neutral-default"
-              >
-                <div
-                  class="h-10 rounded-radius-200 overflow-hidden hidden flex-row items-center justify-center p-3 box-border gap-[8px]"
-                >
-                  <img
-                    class="h-4 w-4 relative overflow-hidden shrink-0 hidden min-h-[16px]"
-                    alt=""
-                    src="/public/star.svg"
-                  />
-
-                  <div class="self-stretch relative leading-[100%]">Button</div>
-                  <img
-                    class="h-4 w-4 relative overflow-hidden shrink-0 hidden min-h-[16px]"
-                    alt=""
-                    src="/public/x.svg"
-                  />
-                </div>
-                <div
-                  class="h-10 rounded-radius-200 bg-background-neutral-tertiary box-border overflow-hidden flex flex-row items-center justify-center py-space-300 px-[11px] gap-[8px] text-text-default-default border-[1px] border-solid border-border-neutral-secondary"
-                >
-                  <img
-                    class="h-4 w-4 relative overflow-hidden shrink-0 hidden min-h-[16px]"
-                    alt=""
-                    src="/public/star.svg"
-                  />
-
-                  <div class="self-stretch relative leading-[100%]">Button</div>
-                  <img
-                    class="h-4 w-4 relative overflow-hidden shrink-0 hidden min-h-[16px]"
-                    alt=""
-                    src="/public/x.svg"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="h-[357px] flex-1 rounded-radius-200 bg-background-default-default box-border flex flex-row flex-wrap items-start justify-start p-6 gap-[24px] min-w-[240px] max-w-full border-[1px] border-solid border-border-default-default"
-          >
-            <img
-              class="h-40 w-40 overflow-hidden shrink-0 object-contain min-w-[160px]"
-              alt=""
-              src="/public/image@2x.png"
-            />
-
-            <div
-              class="h-[125px] flex-1 flex flex-col items-start justify-start gap-[16px] min-w-[160px]"
-            >
-              <div
-                class="self-stretch flex-1 flex flex-col items-start justify-start gap-[8px]"
-              >
-                <div
-                  class="self-stretch h-[29px] relative tracking-[-0.02em] leading-[120%] font-semibold inline-block mq450:text-lgi mq450:leading-[23px]"
-                >
-                  Title
-                </div>
-                <div
-                  class="self-stretch flex-1 relative text-base leading-[140%] text-text-default-secondary"
-                >
-                  Body text for whatever you’d like to say. Add main takeaway
-                  points, quotes, anecdotes, or even a very very short story.
-                </div>
-              </div>
-              <div
-                class="w-52 hidden flex-row items-center justify-start gap-[16px] text-base text-text-neutral-default"
-              >
-                <div
-                  class="h-10 rounded-radius-200 overflow-hidden hidden flex-row items-center justify-center p-3 box-border gap-[8px]"
-                >
-                  <img
-                    class="h-4 w-4 relative overflow-hidden shrink-0 hidden min-h-[16px]"
-                    alt=""
-                    src="/public/star.svg"
-                  />
-
-                  <div class="self-stretch relative leading-[100%]">Button</div>
-                  <img
-                    class="h-4 w-4 relative overflow-hidden shrink-0 hidden min-h-[16px]"
-                    alt=""
-                    src="/public/x.svg"
-                  />
-                </div>
-                <div
-                  class="h-10 rounded-radius-200 bg-background-neutral-tertiary box-border overflow-hidden flex flex-row items-center justify-center py-space-300 px-[11px] gap-[8px] text-text-default-default border-[1px] border-solid border-border-neutral-secondary"
-                >
-                  <img
-                    class="h-4 w-4 relative overflow-hidden shrink-0 hidden min-h-[16px]"
-                    alt=""
-                    src="/public/star.svg"
-                  />
-
-                  <div class="self-stretch relative leading-[100%]">Button</div>
-                  <img
-                    class="h-4 w-4 relative overflow-hidden shrink-0 hidden min-h-[16px]"
-                    alt=""
-                    src="/public/x.svg"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="h-[357px] flex-1 rounded-radius-200 bg-background-default-default box-border flex flex-row flex-wrap items-start justify-start p-6 gap-[24px] min-w-[240px] max-w-full border-[1px] border-solid border-border-default-default"
-          >
-            <img
-              class="h-40 w-40 overflow-hidden shrink-0 object-contain min-w-[160px]"
-              alt=""
-              src="/public/image@2x.png"
-            />
-
-            <div
-              class="h-[125px] flex-1 flex flex-col items-start justify-start gap-[16px] min-w-[160px]"
-            >
-              <div
-                class="self-stretch flex-1 flex flex-col items-start justify-start gap-[8px]"
-              >
-                <div
-                  class="self-stretch h-[29px] relative tracking-[-0.02em] leading-[120%] font-semibold inline-block mq450:text-lgi mq450:leading-[23px]"
-                >
-                  Title
-                </div>
-                <div
-                  class="self-stretch flex-1 relative text-base leading-[140%] text-text-default-secondary"
-                >
-                  Body text for whatever you’d like to say. Add main takeaway
-                  points, quotes, anecdotes, or even a very very short story.
-                </div>
-              </div>
-              <div
-                class="w-52 hidden flex-row items-center justify-start gap-[16px] text-base text-text-neutral-default"
-              >
-                <div
-                  class="h-10 rounded-radius-200 overflow-hidden hidden flex-row items-center justify-center p-3 box-border gap-[8px]"
-                >
-                  <img
-                    class="h-4 w-4 relative overflow-hidden shrink-0 hidden min-h-[16px]"
-                    alt=""
-                    src="/public/star.svg"
-                  />
-
-                  <div class="self-stretch relative leading-[100%]">Button</div>
-                  <img
-                    class="h-4 w-4 relative overflow-hidden shrink-0 hidden min-h-[16px]"
-                    alt=""
-                    src="/public/x.svg"
-                  />
-                </div>
-                <div
-                  class="h-10 rounded-radius-200 bg-background-neutral-tertiary box-border overflow-hidden flex flex-row items-center justify-center py-space-300 px-[11px] gap-[8px] text-text-default-default border-[1px] border-solid border-border-neutral-secondary"
-                >
-                  <img
-                    class="h-4 w-4 relative overflow-hidden shrink-0 hidden min-h-[16px]"
-                    alt=""
-                    src="/public/star.svg"
-                  />
-
-                  <div class="self-stretch relative leading-[100%]">Button</div>
-                  <img
-                    class="h-4 w-4 relative overflow-hidden shrink-0 hidden min-h-[16px]"
-                    alt=""
-                    src="/public/x.svg"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          class="w-[1072px] hidden flex-row flex-wrap items-center justify-start gap-[48px] min-h-[357px] max-w-full"
-        >
-          <div
-            class="self-stretch w-[325px] rounded-radius-200 bg-background-default-default box-border hidden flex-row flex-wrap items-start justify-start p-6 gap-[24px] min-w-[240px] max-w-full border-[1px] border-solid border-border-default-default"
-          >
-            <img
-              class="h-40 w-40 overflow-hidden shrink-0 object-contain min-w-[160px]"
-              alt=""
-              src="/public/image@2x.png"
-            />
-
-            <div
-              class="h-[125px] flex-1 flex flex-col items-start justify-start gap-[16px] min-w-[160px]"
-            >
-              <div
-                class="self-stretch flex-1 flex flex-col items-start justify-start gap-[8px]"
-              >
-                <div
-                  class="self-stretch h-[29px] relative tracking-[-0.02em] leading-[120%] font-semibold inline-block mq450:text-lgi mq450:leading-[23px]"
-                >
-                  Title
-                </div>
-                <div
-                  class="self-stretch flex-1 relative text-base leading-[140%] text-text-default-secondary"
-                >
-                  Body text for whatever you’d like to say. Add main takeaway
-                  points, quotes, anecdotes, or even a very very short story.
-                </div>
-              </div>
-              <div
-                class="w-52 hidden flex-row items-center justify-start gap-[16px] text-base text-text-neutral-default"
-              >
-                <div
-                  class="h-10 rounded-radius-200 overflow-hidden hidden flex-row items-center justify-center p-3 box-border gap-[8px]"
-                >
-                  <img
-                    class="h-4 w-4 relative overflow-hidden shrink-0 hidden min-h-[16px]"
-                    alt=""
-                    src="/public/star.svg"
-                  />
-
-                  <div class="self-stretch relative leading-[100%]">Button</div>
-                  <img
-                    class="h-4 w-4 relative overflow-hidden shrink-0 hidden min-h-[16px]"
-                    alt=""
-                    src="/public/x.svg"
-                  />
-                </div>
-                <div
-                  class="h-10 rounded-radius-200 bg-background-neutral-tertiary box-border overflow-hidden flex flex-row items-center justify-center py-space-300 px-[11px] gap-[8px] text-text-default-default border-[1px] border-solid border-border-neutral-secondary"
-                >
-                  <img
-                    class="h-4 w-4 relative overflow-hidden shrink-0 hidden min-h-[16px]"
-                    alt=""
-                    src="/public/star.svg"
-                  />
-
-                  <div class="self-stretch relative leading-[100%]">Button</div>
-                  <img
-                    class="h-4 w-4 relative overflow-hidden shrink-0 hidden min-h-[16px]"
-                    alt=""
-                    src="/public/x.svg"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="flex-1 rounded-radius-200 bg-background-default-default box-border flex flex-row flex-wrap items-start justify-start py-[22px] px-[23px] gap-[24px] min-w-[240px] max-w-full border-[1px] border-solid border-border-default-default"
-          >
-            <img
-              class="h-40 w-40 overflow-hidden shrink-0 object-contain min-w-[160px]"
-              alt=""
-              src="/public/image@2x.png"
-            />
-
-            <div
-              class="h-[125px] flex-1 flex flex-col items-start justify-start gap-[16px] min-w-[160px]"
-            >
-              <div
-                class="self-stretch flex-1 flex flex-col items-start justify-start gap-[8px]"
-              >
-                <div
-                  class="self-stretch h-[29px] relative tracking-[-0.02em] leading-[120%] font-semibold inline-block mq450:text-lgi mq450:leading-[23px]"
-                >
-                  Title
-                </div>
-                <div
-                  class="self-stretch flex-1 relative text-base leading-[140%] text-text-default-secondary"
-                >
-                  Body text for whatever you’d like to say. Add main takeaway
-                  points, quotes, anecdotes, or even a very very short story.
-                </div>
-              </div>
-              <div
-                class="w-52 hidden flex-row items-center justify-start gap-[16px] text-base text-text-neutral-default"
-              >
-                <div
-                  class="h-10 rounded-radius-200 overflow-hidden hidden flex-row items-center justify-center p-3 box-border gap-[8px]"
-                >
-                  <img
-                    class="h-4 w-4 relative overflow-hidden shrink-0 hidden min-h-[16px]"
-                    alt=""
-                    src="/public/star.svg"
-                  />
-
-                  <div class="self-stretch relative leading-[100%]">Button</div>
-                  <img
-                    class="h-4 w-4 relative overflow-hidden shrink-0 hidden min-h-[16px]"
-                    alt=""
-                    src="/public/x.svg"
-                  />
-                </div>
-                <div
-                  class="h-10 rounded-radius-200 bg-background-neutral-tertiary box-border overflow-hidden flex flex-row items-center justify-center py-space-300 px-[11px] gap-[8px] text-text-default-default border-[1px] border-solid border-border-neutral-secondary"
-                >
-                  <img
-                    class="h-4 w-4 relative overflow-hidden shrink-0 hidden min-h-[16px]"
-                    alt=""
-                    src="/public/star.svg"
-                  />
-
-                  <div class="self-stretch relative leading-[100%]">Button</div>
-                  <img
-                    class="h-4 w-4 relative overflow-hidden shrink-0 hidden min-h-[16px]"
-                    alt=""
-                    src="/public/x.svg"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="flex-1 rounded-radius-200 bg-background-default-default box-border flex flex-row flex-wrap items-start justify-start py-[22px] px-[23px] gap-[24px] min-w-[240px] max-w-full border-[1px] border-solid border-border-default-default"
-          >
-            <img
-              class="h-40 w-40 overflow-hidden shrink-0 object-contain min-w-[160px]"
-              alt=""
-              src="/public/image@2x.png"
-            />
-
-            <div
-              class="h-[125px] flex-1 flex flex-col items-start justify-start gap-[16px] min-w-[160px]"
-            >
-              <div
-                class="self-stretch flex-1 flex flex-col items-start justify-start gap-[8px]"
-              >
-                <div
-                  class="self-stretch h-[29px] relative tracking-[-0.02em] leading-[120%] font-semibold inline-block mq450:text-lgi mq450:leading-[23px]"
-                >
-                  Title
-                </div>
-                <div
-                  class="self-stretch flex-1 relative text-base leading-[140%] text-text-default-secondary"
-                >
-                  Body text for whatever you’d like to say. Add main takeaway
-                  points, quotes, anecdotes, or even a very very short story.
-                </div>
-              </div>
-              <div
-                class="w-52 hidden flex-row items-center justify-start gap-[16px] text-base text-text-neutral-default"
-              >
-                <div
-                  class="h-10 rounded-radius-200 overflow-hidden hidden flex-row items-center justify-center p-3 box-border gap-[8px]"
-                >
-                  <img
-                    class="h-4 w-4 relative overflow-hidden shrink-0 hidden min-h-[16px]"
-                    alt=""
-                    src="/public/star.svg"
-                  />
-
-                  <div class="self-stretch relative leading-[100%]">Button</div>
-                  <img
-                    class="h-4 w-4 relative overflow-hidden shrink-0 hidden min-h-[16px]"
-                    alt=""
-                    src="/public/x.svg"
-                  />
-                </div>
-                <div
-                  class="h-10 rounded-radius-200 bg-background-neutral-tertiary box-border overflow-hidden flex flex-row items-center justify-center py-space-300 px-[11px] gap-[8px] text-text-default-default border-[1px] border-solid border-border-neutral-secondary"
-                >
-                  <img
-                    class="h-4 w-4 relative overflow-hidden shrink-0 hidden min-h-[16px]"
-                    alt=""
-                    src="/public/star.svg"
-                  />
-
-                  <div class="self-stretch relative leading-[100%]">Button</div>
-                  <img
-                    class="h-4 w-4 relative overflow-hidden shrink-0 hidden min-h-[16px]"
-                    alt=""
-                    src="/public/x.svg"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </header>
-      <section
-        class="self-stretch flex flex-row items-start justify-center py-0 px-5 box-border max-w-full text-left text-xl text-black font-roboto"
-      >
-        <div
-          class="w-[539px] flex flex-col items-start justify-start gap-[78.7px] max-w-full mq450:gap-[20px] mq675:gap-[39px]"
-        >
-          <div
-            class="self-stretch relative leading-[36px] font-medium mq450:text-base mq450:leading-[28px]"
-          >
-            Select a category below to begin setting up your organizer.
-          </div>
-          <div
-            class="self-stretch flex flex-row items-start justify-end py-0 px-[29px] box-border max-w-full font-single-line-body-base"
-          >
-            <div
-              class="w-[465px] flex flex-row items-end justify-start max-w-full [row-gap:20px] mq675:flex-wrap"
-            >
-              <div
-                class="flex-1 flex flex-col items-end justify-start min-w-[199px]"
-              >
-                <div
-                  class="self-stretch flex flex-row items-start justify-end py-0 pr-[15px] pl-0"
-                >
-                  <div
-                    class="flex-1 flex flex-col items-end justify-start mq675:flex-1"
-                  >
-                    <div
-                      class="w-[150px] flex flex-row items-start justify-end py-0 px-[18px] box-border"
-                    >
-                      <div class="h-[114px] flex-1 relative">
-                        <div
-                          class="absolute top-[0px] left-[0px] rounded-[50%] bg-background-default-default box-border w-full h-full border-[0px] border-solid border-black"
-                        ></div>
-                        <img
-                          class="absolute top-[25px] left-[25px] w-16 h-16 overflow-hidden z-[1]"
-                          loading="lazy"
-                          alt=""
-                          src="/public/emojionemonotonebustinsilhouette.svg"
-                        />
-                      </div>
-                    </div>
-                    <div
-                      class="self-stretch flex flex-row items-start justify-start gap-[26px] mq450:flex-wrap"
-                    >
-                      <div
-                        class="flex-1 flex flex-col items-start justify-start min-w-[90px]"
-                      >
-                        <div class="w-[114px] h-[114px] relative">
-                          <div
-                            class="absolute top-[0px] left-[0px] rounded-[50%] bg-background-default-default box-border w-full h-full border-[0px] border-solid border-black"
-                          ></div>
-                          <img
-                            class="absolute top-[22px] left-[23px] w-[76px] h-[70px] z-[1]"
-                            loading="lazy"
-                            alt=""
-                            src="/public/twemojilockedwithkey.svg"
-                          />
-                        </div>
-                        <div
-                          class="self-stretch flex flex-row items-start justify-start py-0 pr-0 pl-[18px]"
-                        >
-                          <div
-                            class="h-8 flex-1 relative font-medium inline-block mq450:text-base"
-                          >
-                            Secure
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        class="w-[126px] flex flex-col items-start justify-start gap-[25px] min-w-[126px] mq450:flex-1"
-                      >
-                        <div
-                          class="self-stretch flex flex-row items-start justify-start py-0 pr-0 pl-[5px]"
-                        >
-                          <div
-                            class="h-8 flex-1 relative font-medium inline-block mq450:text-base"
-                          >
-                            Personal
-                          </div>
-                        </div>
-                        <div class="w-[114px] h-[114px] relative">
-                          <div
-                            class="absolute top-[0px] left-[0px] rounded-[50%] bg-background-default-default box-border w-full h-full border-[0px] border-solid border-black"
-                          ></div>
-                          <img
-                            class="absolute top-[27px] left-[24px] w-[65px] h-[60px] z-[1]"
-                            loading="lazy"
-                            alt=""
-                            src="/public/twemojiplus.svg"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="flex flex-col items-start justify-start">
-                  <div
-                    class="flex flex-row items-start justify-start gap-[4px]"
-                  >
-                    <div
-                      class="w-[114px] flex flex-col items-start justify-start pt-[19px] px-0 pb-0 box-border"
-                    >
-                      <div class="self-stretch h-[114px] relative">
-                        <div
-                          class="absolute top-[0px] left-[0px] rounded-[50%] bg-background-default-default box-border w-full h-full border-[0px] border-solid border-black"
-                        ></div>
-                        <img
-                          class="absolute top-[16px] left-[15px] w-[85px] h-[82px] z-[1]"
-                          loading="lazy"
-                          alt=""
-                          src="/public/twemojimoneybag.svg"
-                        />
-                      </div>
-                    </div>
-                    <div
-                      class="h-8 relative inline-block z-[1] mq450:text-base"
-                    >
-                      Add Category
-                    </div>
-                  </div>
-                  <div
-                    class="w-[161px] flex flex-row items-start justify-start py-0 px-5 box-border"
-                  >
-                    <div
-                      class="h-8 flex-1 relative inline-block z-[1] mq450:text-base"
-                    >
-                      The Bag
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="w-[167px] flex flex-col items-start justify-end pt-0 px-0 pb-2 box-border min-w-[167px] ml-[-8px] mq450:ml-0 mq675:flex-1"
-              >
-                <div
-                  class="self-stretch flex flex-col items-start justify-start gap-[158px]"
-                >
-                  <div
-                    class="self-stretch flex flex-row items-start justify-start py-0 pr-0 pl-[38px]"
-                  >
-                    <div class="flex-1 flex flex-col items-start justify-start">
-                      <div class="w-[114px] h-[114px] relative">
-                        <div
-                          class="absolute top-[0px] left-[0px] rounded-[50%] bg-background-default-default box-border w-full h-full border-[0px] border-solid border-black"
-                        ></div>
-                        <img
-                          class="absolute w-[calc(100%_-_27px)] top-[14px] right-[14px] left-[13px] max-w-full overflow-hidden h-[68px] z-[1]"
-                          loading="lazy"
-                          alt=""
-                          src="/public/twemojiautomobile.svg"
-                        />
-                      </div>
-                      <div
-                        class="self-stretch flex flex-row items-start justify-start py-0 pr-0 pl-[27px]"
-                      >
-                        <div
-                          class="h-8 flex-1 relative inline-block mq450:text-base"
-                        >
-                          My “V”
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    class="w-[162px] flex flex-row items-start justify-start relative"
-                  >
-                    <img
-                      class="h-[140px] w-[141px] absolute !m-[0] top-[-124px] left-[-15px]"
-                      loading="lazy"
-                      alt=""
-                      src="/public/frame-4.svg"
-                    />
-
-                    <div class="flex-1 relative z-[1] mq450:text-base">
-                      Did you know...
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+          style="align-self: stretch; text-align: center; color: rgba(34, 183, 231, 0.95); font-size: 64px; font-family: Balsamiq Sans; font-weight: 700; line-height: 76.80px; letter-spacing: 4.48px; word-wrap: break-word">
+          Welcome!</div>
+        <div style="align-self: stretch"></div>
+      </div>
     </div>
-     <nav>
-        <a href="page1.html">Go to Page 1</a> |
-        <a href="page3.html">Go to Page 3</a>
-      </nav>
-    </div>       
+    <div
+      style="padding: 19.69px; background: white; justify-content: center; align-items: center; gap: 19.69px; display: inline-flex">
+      <div style="width: 539px"><span
+          style="color: black; font-size: 20px; font-family: Roboto; font-weight: 500; line-height: 35.45px; word-wrap: break-word">
+        </span><span
+          style="color: black; font-size: 20px; font-family: Roboto; font-weight: 400; line-height: 35.45px; word-wrap: break-word">Select
+          a category below to begin setting up your organizer.</span></div>
+    </div>
+    <div style="width: 470px; height: 460px; position: relative">
+      <div
+        style="padding: 10px; left: 159px; top: 0px; position: absolute; justify-content: flex-start; align-items: center; gap: 10px; display: inline-flex">
+        <div style="width: 114px; height: 114px; background: white; border-radius: 9999px; border: 2px black solid">
+        </div>
+        <div
+          style="width: 121px; height: 32px; color: black; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">
+          Personal</div>
+        <div style="width: 64px; height: 64px; position: relative">
+          <div style="width: 60px; height: 60px; left: 2px; top: 2px; position: absolute; background: black"></div>
+        </div>
+      </div>
+      <div
+        style="padding: 10px; left: 0px; top: 114px; position: absolute; justify-content: flex-start; align-items: center; gap: 10px; display: inline-flex">
+        <div style="width: 114px; height: 114px; background: white; border-radius: 9999px; border: 2px black solid">
+        </div>
+        <div
+          style="width: 121px; height: 32px; color: black; font-size: 20px; font-family: Inter; font-weight: 500; word-wrap: break-word">
+          Secure</div>
+        <div style="width: 76px; height: 70px; position: relative">
+          <div
+            style="width: 42.22px; height: 38.89px; left: 6.33px; top: 5.83px; position: absolute; background: #AAB8C2">
+          </div>
+          <div
+            style="width: 54.89px; height: 38.89px; left: 0px; top: 31.11px; position: absolute; background: #FFAC33">
+          </div>
+          <div style="width: 38px; height: 69.99px; left: 35.89px; top: 0px; position: absolute; background: #C1694F">
+          </div>
+        </div>
+      </div>
+      <div
+        style="padding: 10px; left: 336px; top: 114px; position: absolute; justify-content: flex-start; align-items: center; gap: 10px; display: inline-flex">
+        <div style="width: 114px; height: 114px; background: white; border-radius: 9999px; border: 2px black solid">
+        </div>
+        <div style="width: 87px; height: 68px; position: relative">
+          <div style="width: 87px; height: 34px; left: 0px; top: 26.44px; position: absolute; background: #DD2E44">
+          </div>
+          <div
+            style="width: 50.15px; height: 11.33px; left: 24.17px; top: 30.22px; position: absolute; background: #BBDDF5">
+          </div>
+          <div
+            style="width: 19.33px; height: 15.11px; left: 14.50px; top: 51px; position: absolute; background: #292F33">
+          </div>
+          <div
+            style="width: 9.67px; height: 7.56px; left: 19.33px; top: 54.78px; position: absolute; background: #CCD6DD">
+          </div>
+          <div
+            style="width: 19.33px; height: 15.11px; left: 55.58px; top: 51px; position: absolute; background: #292F33">
+          </div>
+          <div
+            style="width: 9.67px; height: 7.56px; left: 60.42px; top: 54.78px; position: absolute; background: #CCD6DD">
+          </div>
+        </div>
+        <div
+          style="width: 102px; height: 32px; color: black; font-size: 20px; font-family: Inter; font-weight: 400; word-wrap: break-word">
+          My “V”</div>
+      </div>
+      <div
+        style="height: 140px; left: 293px; top: 304px; position: absolute; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
+        <div style="width: 141px; height: 140px; position: relative">
+          <div
+            style="width: 114px; height: 114px; left: 10px; top: 10px; position: absolute; background: white; border-radius: 9999px; border: 2px black solid">
+          </div>
+          <div style="width: 83px; height: 86px; left: 29px; top: 19px; position: absolute">
+            <div
+              style="width: 78.39px; height: 57.93px; left: 2.30px; top: 28.07px; position: absolute; background: #FFCB4C">
+            </div>
+            <div
+              style="width: 56.79px; height: 8.10px; left: 13.89px; top: 30.54px; position: absolute; background: #F19020">
+            </div>
+            <div
+              style="width: 54.76px; height: 18.67px; left: 13.69px; top: 21.77px; position: absolute; background: #F36C24">
+            </div>
+            <div
+              style="width: 51.66px; height: 12.85px; left: 16.02px; top: 21.27px; position: absolute; background: #CE5C1F">
+            </div>
+            <div
+              style="width: 19.98px; height: 23.65px; left: 31.51px; top: 56.59px; position: absolute; background: #65471B">
+            </div>
+            <div
+              style="width: 36.89px; height: 12.74px; left: 23.06px; top: 42.85px; position: absolute; background: #65471B">
+            </div>
+            <div
+              style="width: 71.77px; height: 30.18px; left: 5.67px; top: 0.35px; position: absolute; background: #CCD6DD">
+            </div>
+            <div
+              style="width: 9.78px; height: 10.13px; left: 59.19px; top: 8.71px; position: absolute; background: #E1E8ED">
+            </div>
+            <div
+              style="width: 36.18px; height: 20.46px; left: 9.65px; top: 6.42px; position: absolute; background: #E1E8ED">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        style="left: 57px; top: 314px; position: absolute; justify-content: flex-start; align-items: center; gap: 10px; display: inline-flex">
+        <div style="width: 114px; height: 114px; background: white; border-radius: 9999px; border: 2px black solid">
+        </div>
+        <div style="width: 85px; height: 82px; position: relative">
+          <div style="width: 75.56px; height: 82px; left: 4.72px; top: 0px; position: absolute; background: #FDD888">
+          </div>
+          <div
+            style="width: 28.33px; height: 4.56px; left: 28.33px; top: 11.39px; position: absolute; background: #BF6952">
+          </div>
+          <div
+            style="width: 28.10px; height: 47.84px; left: 28.33px; top: 25.06px; position: absolute; background: #67757F">
+          </div>
+        </div>
+        <div
+          style="width: 121px; height: 32px; color: black; font-size: 20px; font-family: Inter; font-weight: 400; word-wrap: break-word">
+          The Bag</div>
+      </div>
+      <div
+        style="left: 165px; top: 171px; position: absolute; justify-content: flex-start; align-items: center; gap: 10px; display: inline-flex">
+        <div style="width: 134px; height: 134px; position: relative">
+          <div
+            style="width: 114px; height: 114px; left: 10px; top: 10px; position: absolute; background: white; border-radius: 9999px; border: 2px black solid">
+          </div>
+          <div style="width: 65px; height: 60px; left: 34px; top: 37px; position: absolute">
+            <div
+              style="width: 57.78px; height: 53.33px; left: 3.61px; top: 3.33px; position: absolute; background: #31373D">
+            </div>
+          </div>
+          <div
+            style="width: 141px; height: 32px; left: 10px; top: 124px; position: absolute; color: black; font-size: 20px; font-family: Inter; font-weight: 400; word-wrap: break-word">
+            Add Category</div>
+        </div>
+      </div>
+      <div
+        style="width: 162px; height: 32px; left: 308px; top: 428px; position: absolute; color: black; font-size: 20px; font-family: Inter; font-weight: 400; word-wrap: break-word">
+        Did you know...</div>
+    </div>
+  </div>
 </body>
+
 </html>
