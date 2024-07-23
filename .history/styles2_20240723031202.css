@@ -1,0 +1,57 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./*.{html,js}", "./!(build|dist|.*)/**/*.{html,js}"],
+  theme: {
+    extend: {
+      colors: {
+        "background-default-default": "#fff",
+        black: "#000",
+        darkgray: "#979797",
+        "border-default-default": "#d9d9d9",
+        "background-neutral-tertiary": "#e3e3e3",
+        "border-neutral-secondary": "#767676",
+        "text-default-default": "#1e1e1e",
+        "text-neutral-default": "#303030",
+        "text-default-secondary": "#757575",
+        gray: "rgba(255, 255, 255, 0.02)",
+        deepskyblue: "rgba(34, 183, 231, 0.95)",
+      },
+      spacing: {
+        "space-1200": "48px",
+        "space-600": "24px",
+        "space-400": "16px",
+        "space-200": "8px",
+        "space-300": "12px",
+      },
+      fontFamily: {
+        "single-line-body-base": "Inter",
+        roboto: "Roboto",
+        "balsamiq-sans": "'Balsamiq Sans'",
+      },
+      borderRadius: {
+        "radius-200": "8px",
+      },
+    },
+    fontSize: {
+      xl: "20px",
+      base: "16px",
+      "5xl": "24px",
+      lgi: "19px",
+      inherit: "inherit",
+    },
+    screens: {
+      mq750: {
+        raw: "screen and (max-width: 750px)",
+      },
+      mq675: {
+        raw: "screen and (max-width: 675px)",
+      },
+      mq450: {
+        raw: "screen and (max-width: 450px)",
+      },
+    },
+  },
+  corePlugins: {
+    preflight: false,
+  },
+};
