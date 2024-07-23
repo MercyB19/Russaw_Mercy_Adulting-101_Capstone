@@ -1,4 +1,4 @@
-# YAY-Adulting
+# Adulting-101
 
 # Personal Organizer
 
