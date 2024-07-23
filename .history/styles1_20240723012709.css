@@ -11,8 +11,6 @@ body {
 .container {
   width: 100%;
   max-width: 700px;
-  height: 50%;
-  max-height: 50px;
   padding: 20px;
   box-sizing: border-box;
 }
@@ -35,6 +33,7 @@ body {
     #eee,
     #00416a,
     #097a8c,
+    #eee,
     #eee,
     #00416a,
     #002d62,
@@ -68,9 +67,9 @@ body {
   font-family: "Balsamiq Sans", cursive;
   color: #11435f;
   margin-top: -50px;
-  margin-bottom: 4%;
+  margin-bottom: 50px;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 2rem;
   color: #555;
 }
 
