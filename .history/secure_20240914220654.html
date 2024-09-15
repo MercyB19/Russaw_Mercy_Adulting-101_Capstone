@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Money Stuff</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap">
+</head>
+
+<body class="bg-gray-100 flex justify-center items-center min-h-screen">
+  <div class="w-full max-w-screen-md bg-white rounded-lg shadow-lg p-8">
+    <header class="bg-gradient-to-br from-gray-500 p-7 rounded-lg text-center mb-8">
+      <div class="text-5xl font-bold text-blue-900 bg-gradient-to-tl from-gray-100 via-blue-500 to-gray-300 bg-clip-text text-transparent">
+        The Bag
+      </div>
+    </header>
+    <form id="theBagform" class="w-full flex flex-col items-center">
+      
+      <div class="w-full flex justify-between gap-4">
+        <button type="button" id="deleteButton" class="py-3 px-6 bg-white border border-gray-300 rounded-lg hover:bg-gray-100">Delete</button>
+        <button type="button" id="saveButton" class="py-3 px-6 bg-white border border-gray-300 rounded-lg hover:bg-gray-100">Save</button>
+      </div>
+      <div id="saveMessage" class="text-green-500 mt-4 hidden">Form Saved</div>
+      <div class="text-center mt-4">
+        <a href="page2.html" class="text-blue-500 hover:underline">Go to Home</a>
+      </div>
+    </form>
+  </div>
+
+  <script>
+    document.getElementById("saveButton").addEventListener("click", () => {
+      const saveMessage = document.getElementById("saveMessage");
+      saveMessage.classList.remove("hidden");
+      setTimeout(() => {
+        saveMessage.classList.add("hidden");
+      }, 3000);
+    });
+
+    document.getElementById("deleteButton").addEventListener("click", () => {
+      document.getElementById("Secureform").reset();
+    });
+  </script>
+</body>
+
+</html>
